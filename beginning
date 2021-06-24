@@ -1,0 +1,13 @@
+#include <iostream>
+double hours_worked;
+double hourly_rate;
+double total_pay;
+int main() {
+  std::cout << "Input the hours worked:";
+  std::cin>> hours_worked;
+  std::cout << "Input the hourly rate:";
+  std::cin>> hourly_rate;
+  double total_pay=hours_worked * hourly_rate;
+  std::cout<< " Pay amount is: "<< total_pay;
+
+}
